@@ -1,0 +1,9 @@
+# Program to print the first n terms of a geometric series
+a = int(input("Enter the first term (a): "))
+r = float(input("Enter the common ratio (r): "))
+n = int(input("Enter the number of terms (n): "))
+
+print("Geometric series:")
+for i in range(n):
+    term = a * (r ** i)
+    print(term, end=" ")
